@@ -3,7 +3,13 @@ footer{
 	background-color:black;
 	color: white;
 }
+.content{
+	display: flex;
+	min-width: 200px;
+	flex-direction: column;
+}
 .top{
+	padding: 10px;
 	display:flex;
 	justify-content:space-between;
 }
@@ -12,14 +18,48 @@ footer{
 	display:flex;
 	justify-content: space-between;
 }
+.logo-details{
+	padding-left: 5px;
+}
+.logo_name{
+	font-size: 30px;
+	padding: 10px;
+	font-weight: 100;
+}
+.media-icons{
+	margin-right: 10px;
+}
 .icon{
-	width:30px;
-	padding: 5px;
-	margin: 5px;
-	border: 1px solid black;
-	border-radius:15px;
+	margin-right: 10px;
+
 	
 }
+.i1{
+	width:30px;
+	padding: 5px;
+
+	border-radius: 50%
+}
+
 img{
 	width: 30px;
+}
+.link-boxes{
+	padding:10px;
+	display: flex;
+	justify-content:space-between;
+	
+	
+}
+.boxes{
+	padding: 10px;
+	margin: 10px
+}
+ul{
+	margin-left: -35px;
+	margin-right:5px;
+	color: lightgray
+}
+li{
+	padding-bottom:10px;
 }
