@@ -70,7 +70,12 @@ a{
 	
 }
 .bottom-details{
-	background-color:gray;
+	background-color:darkslategray;
+	padding-left: 15px;
+	padding-right:15px;
 	display:flex;
 	justify-content:space-between
+}
+.policy{
+	padding-top:12px;
 }
