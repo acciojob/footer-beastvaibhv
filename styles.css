@@ -1,1 +1,25 @@
 /* your code here */
+footer{
+	background-color:black;
+	color: white;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+}
+.media-icons{
+	margin-left: 20px;
+	display:flex;
+	justify-content: space-between;
+}
+.icon{
+	width:30px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius:15px;
+	
+}
+img{
+	width: 30px;
+}
