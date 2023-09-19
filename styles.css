@@ -63,3 +63,8 @@ ul{
 li{
 	padding-bottom:10px;
 }
+a{
+	text-decoration-line: none;
+    color: inherit;
+	cursor:pointer;
+}
